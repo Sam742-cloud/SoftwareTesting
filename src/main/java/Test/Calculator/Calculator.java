@@ -1,0 +1,151 @@
+package Test.Calculator;
+
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class Calculator {
+
+	public static void main(String[] args) throws InterruptedException {
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("https://www.calculator.net/");
+		
+		//finaNcial calculator
+		driver.findElement(By.xpath("//*[@id=\"homelistwrap\"]/div[1]/div[2]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[1]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[2]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[3]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[4]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[5]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[6]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[7]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[8]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[9]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[10]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[11]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[12]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[13]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[14]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl1\"]/li[15]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		//fitness and health calculators
+		driver.findElement(By.xpath("//*[@id=\"homelistwrap\"]/div[2]/div[2]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl2\"]/li[1]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl2\"]/li[2]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl2\"]/li[3]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl2\"]/li[4]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl2\"]/li[5]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl2\"]/li[6]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl2\"]/li[7]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl2\"]/li[8]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl2\"]/li[9]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		//Math calculator
+		driver.findElement(By.xpath("//*[@id=\"homelistwrap\"]/div[3]/div[2]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl3\"]/li[1]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl3\"]/li[2]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl3\"]/li[3]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl3\"]/li[4]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl3\"]/li[5]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl3\"]/li[6]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		//other calculator
+		driver.findElement(By.xpath("//*[@id=\"homelistwrap\"]/div[4]/div[2]/a")).click();
+		Thread.sleep(2000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl5\"]/li[1]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl5\"]/li[2]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl5\"]/li[3]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl5\"]/li[4]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl5\"]/li[5]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl5\"]/li[6]/a")).click();   
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl5\"]/li[7]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl5\"]/li[8]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl5\"]/li[9]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+		driver.findElement(By.xpath("//*[@id=\"hl5\"]/li[10]/a")).click();
+		Thread.sleep(1000);
+		driver.navigate().back();
+	}
+
+}
